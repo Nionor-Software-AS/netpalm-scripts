@@ -2,12 +2,6 @@
 # Custom scripts for https://github.com/tbotnz/netpalm
 # Get Cisco arp, with VRF and interface support.
 from netmiko import ConnectHandler
-import logging
-
-
-log = logging.getLogger(__name__)
-
-
 
 def run(**kwargs):
     try:
