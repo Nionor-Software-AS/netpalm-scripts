@@ -1,5 +1,4 @@
 # Nionor Software AS
-# Custom scripts for https://github.com/tbotnz/netpalm
 # Get Cisco arp, with VRF and interface support.
 from netmiko import ConnectHandler
 
